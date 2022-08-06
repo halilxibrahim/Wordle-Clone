@@ -7,7 +7,7 @@ function Key({ keyVal, bigKey, disabled }) {
 
   const selectLetter = () => {
     if (gameOver.gameOver) return;
-    if (keyVal === "ENTER") {
+    if (keyVal === "ENTER") { // TODO@ switch case
       onEnter();
     } else if (keyVal === "DELETE") {
       onDelete();
